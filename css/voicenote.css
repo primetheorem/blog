@@ -1,0 +1,104 @@
+.voicecontainer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.voicecontainer p {
+    color: #444;
+}
+
+.voicecontainer button:focus {
+    outline: 0;
+}
+
+.voicecontainer {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.voicecontainer .header-class {
+    margin-bottom: 20px;
+}
+
+.voicecontainer .page-description {
+    font-size: 1.1rem;
+    margin: 0 auto;
+}
+
+.voicecontainer .tz-link {
+    font-size: 1em;
+    color: #1da7da;
+    text-decoration: none;
+}
+
+.voicecontainer .no-browser-support {
+    display: none;
+    font-size: 1.2rem;
+    color: #e64427;
+    margin-top: 35px;
+}
+
+.voicecontainer .app {
+    margin: 40px auto;
+}
+
+.voicecontainer .note-textarea {
+    margin: 20px 0;
+    height: auto;
+    resize: vertical;
+    line-height: var(--line-height);
+    white-space: normal;
+    width: 100%;
+    vertical-align: middle;
+    display: block;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.voicecontainer .recording-instructions {
+    margin: 15px auto 60px;
+}
+
+.voicecontainer .notes {
+    padding-top: 20px;
+}
+
+.voicecontainer .note .header {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.voicecontainer .note .delete-note,
+.voicecontainer .note .listen-note {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.voicecontainer .note .content {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .voicecontainer {
+        padding: 50px 25px;
+    }
+
+    .voicecontainer button {
+        margin-bottom: 10px;
+    }
+
+}   
+
+.voicecontainer .action-class {
+	padding: 0 .75em;
+    margin: 10px;
+}
+
+/* -- Demo ads -- */
+
+@media (max-width: 1200px) {
+    .voicecontainer .bsaHolder{ display:none;}
+}

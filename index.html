@@ -1,11 +1,44 @@
-<h1>Hello World!!!</h1>
-
-<a href="javascript-design-patterns.html">javascript-design-patterns</a>
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<html>
+ <!-- BEGIN HEAD -->
+    <head>
+        <title>T-20</title>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="css/stylesheet.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/voicenote.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC79tI7Jo2cjyzO5QRniVNvzN6Eogxj1Gc&libraries=places"></script>
+    </head>
+    <!-- END HEAD -->
+  <body>
+	<div id="home"></div>
+    <script src="dist/bundle.js" type="text/javascript"></script>
+	<div id="categories">
+    <h4>C<br />
+      a<br />
+      t<br />
+      e<br />
+      g<br />
+      o<br />
+      r<br />
+      i<br />
+      e<br />
+      s </h4>
+    <h5>Alphabetical</h5>
+    <ul>
+      <li><a href="#"><span>A </span>&ndash; C</a></li>
+      <li><a href="#"><span>D </span>&ndash; G</a></li>
+      <li><a href="#"><span>H </span>&ndash; L</a></li>
+      <li><a href="#"><span>M </span>&ndash; Q</a></li>
+      <li><a href="#"><span>R </span>&ndash; Z</a></li>
+    </ul>
+    <h5>by Style</h5>
+    <ul>
+      <li><a href="#">Serifs</a></li>
+      <li><a href="#">Non-Serifs</a></li>
+      <li><a href="#">Geometrical</a></li>
+      <li><a href="#">Calligraphical</a></li>
+      <li><a href="#">Post-Modern</a></li>
+    </ul>
+  </div>
+  </body>
+</html>
